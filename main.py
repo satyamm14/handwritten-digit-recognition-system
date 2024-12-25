@@ -22,3 +22,8 @@ class NeuralNet(nn.Module):
 
 # Load the saved model (update path as needed)
 model = NeuralNet()
+
+state_dict = torch.load("./mnist_model.zip", weights_only=False)  # Adjust the path if needed
+model.load_state_dict(state_dict)
+model.eval()
+
