@@ -16,10 +16,10 @@ The model is a simple feed-forward neural network trained on the MNIST dataset. 
 
 1. Clone the repository
 
-````bash
-git clone https://github.com/satyamm14handwritten-digit-recognition-system.git
-cd handwritten-digit-recognition-system```
-````
+```bash
+git clone https://github.com/satyamm14/handwritten-digit-recognition-system.git
+cd handwritten-digit-recognition-system
+```
 
 2. Ensure you have PyTorch installed: Install PyTorch based on your system and CUDA availability:
 
