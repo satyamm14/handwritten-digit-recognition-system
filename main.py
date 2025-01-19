@@ -20,7 +20,7 @@ class NeuralNet(nn.Module):
 
 model = NeuralNet()
 
-state_dict = torch.load("./mnist_model.zip", weights_only=False)  
+state_dict = torch.load("./model/mnist_model.zip", weights_only=False)  
 model.load_state_dict(state_dict)
 model.eval()
 
